@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/__pycache__": true,
+        "**/*.egg-info": true,
+        "**/*.pyc": true
+    },
+    "python.venvPath": "{$project_root}",
+    "python.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe"
+}
