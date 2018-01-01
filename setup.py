@@ -9,5 +9,5 @@ setup(name='newest',
       author_email='supersolberg@gmail.com',
       url='https://github.com/larsjsol/newest',
       packages=['newest'],
-      install_requires=['pyzmq']
-      )
+      install_requires=['pyzmq', 'python-dateutil']
+     )
