@@ -5,7 +5,7 @@ Publishes software updates to listeners.
 """
 
 import zmq
-from newest.state import State, SoftwareVersion
+from newest.state import State
 
 class Server:
     def __init__(self):
@@ -34,8 +34,8 @@ class Server:
                 self.handle_update()
 
 def main():
-    s = Server()
-    s.main_loop()
+    server = Server()
+    server.main_loop()
 
 if __name__ == "__main__":
     main()
